@@ -3,6 +3,7 @@
 
 ;;; Code:
 (setq temporary-file-directory "/tmp/")
+(setq gc-cons-threshold 20000000)
 
 ;; Load all packages. This needs to happen first, as they're used
 ;; in the code below.

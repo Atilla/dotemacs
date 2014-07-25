@@ -12,7 +12,7 @@
 
 
 (defvar atilla-required-packages
-  (list 'dakrone-theme 'flycheck)
+  (list 'dakrone-theme 'flycheck 'flx 'flx-ido)
   "Libraries that should be installed by default.")
 
 (unless package-archive-contents
