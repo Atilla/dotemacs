@@ -45,6 +45,10 @@
            try-expand-dabbrev-from-kill
            ))
 
+;; Mark shebang files as executable
+(add-hook 'after-save-hook
+  'executable-make-buffer-file-executable-if-script-p)
+
 (provide 'behaviour)
 ;;; behaviour.el ends here
 
