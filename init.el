@@ -12,6 +12,7 @@
 (load "~/.emacs.d/looks.el")
 (load "~/.emacs.d/editing.el")
 (load "~/.emacs.d/behaviour.el")
+(load "~/.emacs.d/calendar.el")
 (load "~/.emacs.d/keybindings.el")
 
 ;; Set tramp default to ssh
