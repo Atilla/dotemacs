@@ -3,7 +3,7 @@
 ;;; Code:
 
 ;; Load favoutire theme
-(load-theme 'dakrone t)
+(load-theme 'naquadah t)
 
 ;; I Like having scroll bar on the right for some reason
 (scroll-bar-mode 1)

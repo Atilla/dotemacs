@@ -12,7 +12,7 @@
 
 
 (defvar atilla-required-packages
-  (list 'dakrone-theme 'flycheck 'flx 'flx-ido 'projectile)
+  (list 'naquadah-theme 'flycheck 'flx 'flx-ido 'projectile)
   "Libraries that should be installed by default.")
 
 (unless package-archive-contents
@@ -24,5 +24,3 @@
 
 (provide 'packages)
 ;;; packages.el ends here
-
-
