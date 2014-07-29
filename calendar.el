@@ -1,4 +1,4 @@
-;;; Looks --- Customixing emacs appearance
+;;; Calendar --- Customixing M-x calendar
 ;;; Commentary:
 ;;; Code:
 

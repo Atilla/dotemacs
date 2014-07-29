@@ -23,11 +23,13 @@
 (add-hook 'after-init-hook #'global-flycheck-mode)
 (add-hook 'after-init-hook #'projectile-global-mode)
 
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes (quote ("e8ff60c7811d4532ee9f756b654d2f13d455e04851ee60c5e033e1b6a17e968f" default)))
  '(safe-local-variable-values (quote ((encoding . utf-8)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
