@@ -12,7 +12,7 @@
 
 
 (defvar atilla-required-packages
-  (list 'naquadah-theme 'flycheck 'flx 'flx-ido 'projectile)
+  (list 'naquadah-theme 'flycheck 'flx 'flx-ido 'projectile 'dockerfile-mode)
   "Libraries that should be installed by default.")
 
 (unless package-archive-contents
