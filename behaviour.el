@@ -4,6 +4,7 @@
 
 ;; Backup and temp files are Uber-annoying
 (setq make-backup-files nil)
+(setq auto-save-default nil)
 (setq backup-directory-alist `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
 
