@@ -15,6 +15,9 @@
 (load "~/.emacs.d/calendar.el")
 (load "~/.emacs.d/keybindings.el")
 
+;; Language-specific customisations
+(load "~/.emacs.d/cust-python.el")
+
 ;; Set tramp default to ssh
 (require 'tramp)
 (setq tramp-default-method "ssh")
