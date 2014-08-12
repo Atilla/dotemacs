@@ -7,6 +7,9 @@
 (transient-mark-mode t)
 (setq x-select-enable-clipboard t)
 
+;; Ignore duplicates in the kill ring
+(setq kill-do-not-save-duplicates t)
+
 ;; Only indent with 4 spaces
 (setq tab-width 4
       indent-tabs-mode nil)
