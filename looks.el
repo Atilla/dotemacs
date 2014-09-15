@@ -1,9 +1,22 @@
-;;; Looks --- Customixing emacs appearance
+;;; Looks --- Customizing emacs appearance
 ;;; Commentary:
 ;;; Code:
 
 ;; Load favoutire theme
 (load-theme 'naquadah t)
+
+;; Make sure we get black background
+(add-to-list 'default-frame-alist
+             '(background-color . "black"))
+(add-to-list 'initial-frame-alist
+             '(background-color . "black"))
+
+;; Inconsolata rules forever
+(add-to-list 'default-frame-alist
+             '(font . "Inconsolata-12"))
+(add-to-list 'initial-frame-alist
+             '(font . "Inconsolata-12"))
+
 
 ;; I Like having scroll bar on the right for some reason
 (scroll-bar-mode 1)
