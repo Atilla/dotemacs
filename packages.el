@@ -4,8 +4,13 @@
 
 ;; Enable package repositories
 (require 'package)
+
+;; Wipe the default list of packeges, so we can control eveyrthing
+(setq package-archives '())
 (add-to-list 'package-archives
-	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
+	     '("gnu" . "https://elpa.gnu.org/packages/") t)
+(add-to-list 'package-archives
+	     '("melpa" . "https://melpa.milkbox.net/packages/") t)
 ;;(add-to-list 'package-archives
 ;;	     '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (package-initialize)
