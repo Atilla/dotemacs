@@ -1,4 +1,4 @@
-;;; Behaviour --- Customixing emacs behaviour
+;;; Behaviour --- Customising emacs behaviour
 ;;; Commentary:
 ;;; Code:
 
@@ -11,6 +11,9 @@
 ;; Auto-reload changed buffers
 (global-auto-revert-mode t)
 
+;; Show which function you're working in
+(which-function-mode)
+(setq which-func-unknown "n/a")
 
 ;; Remove questions about closing buffers:
 (setq kill-buffer-query-functions
